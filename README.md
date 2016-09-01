@@ -6,8 +6,8 @@ Wagon computes histograms, distributions, and other statistics on streaming quer
 
 We’ve built a generator that outputs random web log data in CSV format. You can download it here:
 
-- Mac: https://s3.amazonaws.com/challenge.wagon/generator.zip
-- Linux: https://s3.amazonaws.com/challenge.wagon/generator-linux.zip
+- Mac: https://github.com/svanderbleek/wagonhq-challenge/blob/master/generator.zip?raw=true
+- Linux: https://github.com/svanderbleek/wagonhq-challenge/blob/master/generator-linux.zip?raw=true
 
 The CSV header includes column names and column types, like this:
 
@@ -73,7 +73,7 @@ We’re building a delightful user interface for analyzing data. Given a set row
 
 ### Input
 
-Here’s a file of web-log data (1M rows): https://s3.amazonaws.com/challenge.wagon/input.csv
+Here’s a file of web-log data (1M rows): https://github.com/svanderbleek/wagonhq-challenge/blob/master/input.csv?raw=true
 
 It’s in CSV format, with the column types in parentheses after the column names. For example,
 
