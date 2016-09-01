@@ -77,7 +77,10 @@ Here’s a file of web-log data (1M rows): https://s3.amazonaws.com/challenge.wa
 It’s in CSV format, with the column types in parentheses after the column names. For example,
 
 ```
-"sessionId (id)","page (text)","latency (int)","timeOnPage (float)" b7af832e,explore,22,118.781 38f5841d,welcome,189,39.657 b90e8b3d,query,63,423.585 385b525c,query,180,332.658 386c25d4,,10,
+"sessionId (id)","page (text)","latency (int)","timeOnPage (float)"
+b7af832e,explore,22,118.781 38f5841d,welcome,189,39.657
+b90e8b3d,query,63,423.585 385b525c,query,180,332.658
+386c25d4,,10,
 ```
 
 ### Data on a page
