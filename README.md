@@ -79,8 +79,10 @@ It’s in CSV format, with the column types in parentheses after the column name
 
 ```
 "sessionId (id)","page (text)","latency (int)","timeOnPage (float)"
-b7af832e,explore,22,118.781 38f5841d,welcome,189,39.657
-b90e8b3d,query,63,423.585 385b525c,query,180,332.658
+b7af832e,explore,22,118.781
+38f5841d,welcome,189,39.657
+b90e8b3d,query,63,423.585
+385b525c,query,180,332.658
 386c25d4,,10,
 ```
 
@@ -99,6 +101,6 @@ Here are a few ideas, but welcome to get fancy!
 
 If you love this, you might also love these papers:
 
-[7 Classic Foundational Vis Papers You Might not Want to Publicly Confess you Don’t Know](http://fellinlovewithdata.com/guides/7-classic-foundational-vis-papers)
-[20 DataTable Examples with ReactJS](http://react.rocks/tag/DataTable)
-[JavaScript Graph Comparison](http://www.jsgraphs.com/)
+- [7 Classic Foundational Vis Papers You Might not Want to Publicly Confess you Don’t Know](http://fellinlovewithdata.com/guides/7-classic-foundational-vis-papers)
+- [20 DataTable Examples with ReactJS](http://react.rocks/tag/DataTable)
+- [JavaScript Graph Comparison](http://www.jsgraphs.com/)
