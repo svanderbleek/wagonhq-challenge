@@ -2,7 +2,7 @@
 
 Wagon computes histograms, distributions, and other statistics on streaming query results. Given a stream of numbers and text, let’s calculate some stats!
 
-Input
+### Input
 
 We’ve built a generator that outputs random web log data in CSV format. You can download it here:
 
@@ -20,7 +20,7 @@ The generator takes in a number of rows you’d like returned as a command line 
 ./generator 10000
 ```
 
-Consume and compute
+### Consume and compute
 
 Build an executable that consumes ~10000 rows from the generator and calculates the following basic statistics:
 
@@ -70,7 +70,7 @@ If you love this, checkout these papers:
 
 We’re building a delightful user interface for analyzing data. Given a set rows and columns, let’s make a webpage to show it off—think nifty, read-only spreadsheet.
 
-Input
+### Input
 
 Here’s a file of web-log data (1M rows): https://s3.amazonaws.com/challenge.wagon/input.csv
 
@@ -80,7 +80,7 @@ It’s in CSV format, with the column types in parentheses after the column name
 "sessionId (id)","page (text)","latency (int)","timeOnPage (float)" b7af832e,explore,22,118.781 38f5841d,welcome,189,39.657 b90e8b3d,query,63,423.585 385b525c,query,180,332.658 386c25d4,,10,
 ```
 
-Data on a page
+### Data on a page
 
 Create a webpage with a table of the first 10K rows from the CSV.
 
