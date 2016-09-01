@@ -1,1 +1,0 @@
-# wagonhq-challenge
